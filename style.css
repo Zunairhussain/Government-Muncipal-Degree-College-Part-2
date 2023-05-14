@@ -34,7 +34,7 @@ color: #fff;
     text-decoration: none;
     color: #fff;
 }
-.active,.menu-bar ul li:hover
+.menu-bar ul li:hover
 {
 background: #2bab0d;
 border-radius: 3px;
@@ -63,8 +63,6 @@ border-radius: 3px;
     padding: 10px ;
     border-bottom: 1px;
 }
-
-
 
 
 

@@ -5,153 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./New folder/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="style admission.css">
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 
-<body>    
+<body>
+
     <div class="menu-bar">
         <img src="./pics/logo.png" alt="" width="90px" height="90px">
         <h1 style="border-left: 5px solid red;">Government Muncipal Degree College</h1>
         <ul>
         
-        <li class="active"> <h3><a href="./Home1.html"> Home</a></h3></li>
-        <li> <h3 ><a href="./Gallery1.html"> Gallery </a></h3></li>
-        <li> <h3><a href="/department1.html">Department</a></h3>
+            <a href="./Home1.html"style="text-decoration: none;"><li class="active"> <h3> Home</h3></li></a>
+        <a href="./Gallery1.html"style="text-decoration: none;"><li> <h3 > Gallery </h3></li></a>
+        <a href="./department1.html"style="text-decoration: none;"><li> <h3 style="color: white;">Department</h3></a>
             <div class="sub-menu-1">
                 <ul>
-                <li><a href="./department1.html">Department</a></li>
-                <li><a href="./proramme.html">Programme</a></li>
+                    <a href="./department1.html"style="text-decoration: none;"><li>Department</li></a>
+                <a href="./proramme.html"style="text-decoration: none;"><li>Programme</li></a>
                 </ul>
 
             </div>
         
         </li>
-        <li> <h3><a href="/About us1.html">About us</a></h3>           
+        <a href="./About us1.html"style="text-decoration: none;"><li> <h3 style="color: white;">About us</h3></a>           
             <div  class="sub-menu-1">
             <ul>
-            <li><a href="./About us1.html">About us</a></li>
-            <li><a href="./Glimpse of college.html">Glimpse Of College</a></li>
-            <li><a href="./Rules & Regulation1.html">Rules</a></li>
+                <a href="./About us1.html"style="text-decoration: none;"><li>About us</li></a>
+            <a href="./Glimpse of college.html"style="text-decoration: none;"><li>Glimpse Of College</li></a>
+            <a href="./Rules & Regulation1.html"style="text-decoration: none;"><li>Rules</li></a>
             </ul>
 
         </li>
-        <li> <h3><a href="/Contact us1.html">Contact us</a></h3> </li>
-        <li><h3><a href="./Admission form1.html"> Admission</a></h3></li>
+        <a href="./Contact us1.html"style="text-decoration: none;"><li> <h3>Contact us</h3> </li></a>
+        <a href="./Admission form1.html"style="text-decoration: none;"><li><h3> Admission</h3></li></a>
+        <a href="./Registration.html"style="text-decoration: none;"><li><h3> Registration Form </h3></li></a>
     </ul>   
-   
-   
     </div>
-        
-<!-- center -->
+    
 
-<div style="text-align: center; padding: 10px; background-color: rgb(23, 55, 76); color: white; ">
-    <h1>Admission Form</h1>
-</div>
-<div style="border: 10px solid whitesmoke;  padding: 30px; background-color: rgb(0,33,71); color: white;">
-<div style=" margin-left: 7px; " >
-    <h1 style=" margin-top: 10px; ">Programme</h1><br>
-    <select name="Select Programme"  id=""  style=" margin-top: 10px; margin-bottom: 10px;">
-        <option value="">Select Programme </option>
-        <option value="">F.Sc(Pre-Engineering)</option>
-        <option value="">F.Sc(Pre-Medical)</option>
-        <option value="">ICS</option>
-        <option value="">I.COM</option>
-        <option value="">F.A</option>
-        <option value="">F.A(IT)</option>
-        <option value="">BS Computer science</option>
-        <option value="">BS Physics</option>
-        <option value="">BSChemistry</option>
-        <option value="">BS English</option>
-        <option value="">BS Mathematics</option>
-        <option value="">BS Economics</option>
-        <option value="">BS Urdu </option>
-        <option value="">BS Psychology </option>
-    </select>
+</head>
+<body>
+<!-- center  -->
+<div class="bo">
+<form style=" justify-content: center; align-items: center;">
+  <h2> Admission Form</h2>
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" required>
 
-</div><br>
-<h1 style="margin-bottom: 5px;">Personal Info</h1>
-<br>
-<div class="container" >
-    <div class="row">
-        <div class="col-3"><h3>Full Name</h3>
-            <input type="text" placeholder="Enter your Name"> </div>
-        <div class="col-3"><h3>Father's Name</h3>
-            <input type="text" placeholder="Enter Your Father Name"></div>
-        <div class="col-3" > <h3>Father's / Guardians</h3>
-            <input type="text" placeholder="Enter Father C.N.I.C"></div>
-        <div class="col-3" ><h3>Date of Birth</h3>
-        <input type="text" placeholder="Enter Date Of Birth"></div>
-        <div class="col-3" style="margin-top: 10px;"><br><h3>Gender</h3>
-        <select name="Select your Gender" id="" ><option value="">Gender</option>
-            <option value="">Male</option>
-            <option value="">Female</option>  </select></div>
-          </div>  
-</div>
-<br>
-<h1 style="margin: 7px; margin-top: 7px;">Contact Info</h1><br>
-<div class="container">
-    <div class="row">
-        <div class="col-3"><h3>Mobile No.</h3><input type="text" placeholder="Enter your number"></div>
-        <div class="col-3"><h3>Email</h3><input type="text" placeholder="Enter your Email"></div>
-        <div class="col-3"><h3>Address</h3><input type="text" placeholder="Enter your Address"></div>
-    </div>
-</div>
-    <br>
-   <h1 style="margin: 7px; margin-top: 10px;">Acadmic Info</h1><br>
-   <div class="container">
-    <div class="row">
-        <div class="col-3"><h3 style="margin: 5px;">Last Exam passed</h3><select name="Select last Exam Passed" id="">
-            <option value="">Select Last Exam Passed</option>
-            <option value="">Matric</option>
-            <option value="">Ninth</option>
-            <option value="">O-Level</option>
-        </select></div>
-        <div class="col-3"><h3 style="margin: 5px;">Passing year </h3><select name="Enter Passing Year" id="">
-            <option value="">Select Passing Years</option>
-            <option value="">2020</option>
-            <option value="">2019</option>
-            <option value="">2018</option>
-            <option value="">2017</option>
-            <option value="">2016</option>
-        </select></div>
-        <div class="col-3"><h3 style="margin: 5px;">Board</h3><select name="Select Board" id="">
-            <option value="">Lahore Board</option>
-            <option value="">Karachi Board</option>
-            <option value="">Faisalabad Board</option>
-            <option value="">Multan Board</option>
-            <option value="">Sargodha Board</option>
-            <option value="">Islamabad Board</option>
-            <option value="">Gujranwala Board</option>
-        </select></div>
-        <div class="col-3"><h3 style="margin: 5px;">Groups </h3><select name="Enter your Group " id="">
-        <option value="">Select your Groups</option>
-        <option value="">Arts</option>
-        <option value="">Science</option>
-        
-        </select></div>
-        <br><br><br><br>
-        <div class="col-3"><h3 style="margin: 5px;  ">Obtain Marks</h3><input type="text" placeholder="Enter your Marks" style="margin-bottom: 30px;"></div>
-        <div class="col-3"><h3 style="margin: 5px; ">Total Marks</h3><input type="text" placeholder="Enter your Marks" style="margin-bottom: 30px;"></div>
-        <div class="col-3"><h3 style="margin: 5px;  ">Board Roll No</h3><input type="text" placeholder="Enter your Roll No" style="margin-bottom: 30px;"></div>
-        <div class="col-3"><h3 style="margin: 5px;  ">Institute</h3><input type="text" placeholder="Enter your Institute" style="margin-bottom: 30px;"></div>
-        <div class="col-3"><button><h3 style="padding: 5px;">Submit</h3></button></div>
-      
-    </div>
-</div>
+  <label for="name">Father Name:</label>
+  <input type="text" id="name" name="name" required>
 
-</div>
+  <label for="name">Father CNIC:</label>
+  <input type="number" id="name" name="name" required>
 
-<!-- <hr style="padding: 3px;background-color: black;"> -->
+  <label for="name">Your CNIC</label>
+  <input type="number" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob" required>
+
+  <label for="Last Qualification">Last Qualification:</label>
+  <select id="Last Qualification" name="Last Qualification" required style="padding: 6px;">
+      <option value="computer-science">Intermidiated</option>
+      <option value="computer-science">Matric</option>
+    <!-- Add more options as needed -->
+  </select>
+
+
+  <label for="program">Program:</label>
+  <select id="program" name="program" required style="padding: 6px;">
+      <option value="computer-science">Computer Science</option>
+      <option value="computer-science">F.S.C(Pre-Medical)</option>
+      <option value="computer-science">F.S.C(Pre-Engineering)</option>
+      <option value="computer-science">BS Computer Science</option>
+      <option value="biology">BS Botany</option>
+      <option value="biology">BS Zoology</option>
+      <option value="engineering">BS Chemistry</option>
+      <!-- Add more options as needed -->
+  </select>
+
+  <button type="submit">Submit</button>
+</form>
+</div>
 <!-- End part -->
 
-<div class="container" style="background-color: whitesmoke; color: black; padding: 43px;">
+<div class="container" style="background-color: white; color: black; padding: 10   0px;">
     <div class="row">
         <div class="col-1"><img style="margin-top: 7px;" src="./pics/logo.png" alt="images not found" width="90px" height="90px" ></div>
         <div class="col-3"><h3 style="border-left: 5px solid brown; padding: 10px ;">Government Muncipal Degree College</h3></div>
-        <div class="col-2"><h3 style="margin-top: 10px; ">Many More </h3> <p style="border-left: 5px solid brown;padding: 10px; "><a href="/Fees fine1.html">Fee & Fine </a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="/Exam scheduals1.html">Exam Scheduals</a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="/parking1.html">Parking</a></p> </div>
-        <div class="col-2"><h3 style="margin-top: 10px; ">Quick Access</h3><p style="border-left: 5px solid brown;padding: 10px;"><a href="/Time table1.html">Time Table</a></p><p style="border-left: 5px solid brown;padding: 10px;"><a href="/Merit list1.html">Merit Lists</a></p></div>
+        <div class="col-2"><h3 style="margin-top: 10px; ">Many More </h3> <p style="border-left: 5px solid brown;padding: 10px; "><a href="./Fees fine1.html">Fee & Fine </a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="./Exam scheduals1.html">Exam Scheduals</a></p> <p style="border-left: 5px solid brown;padding: 10px;"><a href="./parking1.html">Parking</a></p> </div>
+        <div class="col-2"><h3 style="margin-top: 10px; ">Quick Access</h3><p style="border-left: 5px solid brown;padding: 10px;"><a href="./Time table1.html">Time Table</a></p><p style="border-left: 5px solid brown;padding: 10px;"><a href="./Merit list1.html">Merit Lists</a></p></div>
         <div class="col-3"><h3 style="margin-top: 10px; ">Social links</h3><p style="border-left : 5px solid brown; padding: 10px;"><a href="https://www.facebook.com/gmdc.cs"><img style="border-radius: 45%;" src="./pics/Facebook.jpg" alt="images not found" width="40px " ></a> <a href="https://www.youtube.com/"><img style="border-radius: 45%;" src="./pics/youtube.jpg" alt="images not found" width="40px"></a> <a href="https://twitter.com/"><img style="border-radius: 45%;" src="./pics/twitter.jpg" alt="images not found" width="37px"></a> <a href="https://www.instagram.com/"><img style="border-radius: 45%;" src="./pics/instagram.png" alt="images not found" width="40px"></a></p> <p><img style="border-radius: 45%;" src="./pics/email.jpg" alt="images not found" width="15px">info@gmdc.gmail.edu.pk</p> <p><img style="border-radius: 45%;" src="./pics/call logo.jpg" alt="images not found" width="15px">(041)9220283</p><p style="border-left : 5px solid brown; padding: 10px;">Govt.Municipal Degree College Faisalabad Jaranwala Road, Faisalabad </p> </div>
     </div>  
 </div>
